@@ -1,4 +1,4 @@
-<h1 align="center"> Envio de E-mails em Massa Considerando as Características dos Destinatários </h1>
+<h1 align="center"> Envio de e-mails em massa considerando as características dos destinatários </h1>
 
 <p align="center">
 por Carina R.P.M Dias <br/>
