@@ -21,9 +21,9 @@ def create_connection():
 
         return connection
         
-    except Error as e:
+    #except Error as e:
         #print(f"Erro ao conectar ao MySQL: {e}")
-        return None
+        #return None
 
 # Função para fechar a conexão
 def close_connection(connection):
@@ -34,10 +34,10 @@ def close_connection(connection):
 # Criar a conexão
 connection = create_connection()
 
-# Executar consulta 
+# Consultar emails e nomes dos clientes da região sul
 if connection:
     cursor = connection.cursor()
-    cursor.execute("SELECT nome, email FROM users WHERE regiao = 'Sul';")  # Exemplo: mostra o banco de dados atual
+    cursor.execute("SELECT nome, email FROM users WHERE regiao = 'Sul';")  
     # Pegando todas as linhas de uma vez 
     dados = cursor.fetchall()
     #print("Você está conectado ao banco de dados:", dados)
