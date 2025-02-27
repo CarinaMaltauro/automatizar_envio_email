@@ -28,7 +28,7 @@ conta_sendgrid = SendGridAPIClient(chave_api_sendgrid)
 
 
 # compor email
-email = Mail(from_email="carinarpmd@gmail.com", to_emails= lista_emails, 
+email = Mail(from_email="seu_email_verificado_no_sendgrid@gmail.com", to_emails= lista_emails, 
              subject="Comunicado de Atraso", 
              html_content="<p>Comunicamos ao Senhor(a) um atraso de três dias na entrega</p><p>Agradecemos a compreenssão. Para mais informações entre em contato pelo tel (xx)99999-9999</p>")
 
