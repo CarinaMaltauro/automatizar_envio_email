@@ -1,7 +1,4 @@
-CONFIGURAÇÕES NO VSCODE
-
-Criar ambiente virtual:
-python -m venv nome_do_ambiente, depois ative o ambiente .\nome_do_ambiente\Scripts\activate
+INSTALAÇÕES
 
 Twilio SendGrid:
 pip install sendgrid
@@ -13,3 +10,7 @@ pip install mysql-connector-python
 Pandas:
 pip install pandas
 pip install pandasql
+
+RECOMENDAÇÕES
+Trabalhe com Python 3.X
+Crie uma conta no Twilio SendGrid e configure em 'API de e-mail' uma chave_sendgrid
