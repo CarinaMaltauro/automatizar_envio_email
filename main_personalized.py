@@ -24,7 +24,7 @@ def enviar_emails(destinatarios):
         email = destinatario['Email']
         
         message = Mail(
-                    from_email='carinarpmd@gmail.com',
+                    from_email='seu_email_verificado_no_sendgrid@gmail.com',
                     to_emails=destinatario['Email'],
                     subject='Assunto do E-mail',
                 )
@@ -50,7 +50,7 @@ def query_table(query_text):
 # emails dos clientes da região Sul 
 df_cliente_email = query_table('''SELECT Email, Cliente FROM df WHERE Region = 'Sul' ''')
 
-# lista de dicionários, chave Email e Cliente
+# lista de dicionários, chaves Email e Cliente
 dados_destinatarios = df_cliente_email.to_dict(orient='records') # records indica transformação para lista de dicionários, cabeçalhos a chave
 
 
