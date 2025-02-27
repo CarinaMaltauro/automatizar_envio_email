@@ -21,7 +21,7 @@ def enviar_emails(destinatarios):
         email = destinatario['email']
         
         mensagem = Mail(
-            from_email='carinarpmd@gmail.com',
+            from_email='seu_email_verificado_no_sendgrid@gmail.com',
             to_emails=email,
             subject='Olá, {}'.format(nome),
             html_content='<strong>Comunicamos ao Sr(a){},</strong><br>que o seu pedido foi enviado com sucesso.'.format(nome)
