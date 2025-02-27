@@ -1,0 +1,15 @@
+CONFIGURAÇÕES NO VSCODE
+
+Criar ambiente virtual:
+python -m venv nome_do_ambiente, depois ative o ambiente .\nome_do_ambiente\Scripts\activate
+
+Twilio SendGrid:
+pip install sendgrid
+
+MySQL:
+pip install mysqlclient 
+pip install mysql-connector-python 
+
+Pandas:
+pip install pandas
+pip install pandasql

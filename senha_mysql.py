@@ -1,0 +1,1 @@
+senha = "senha_acesso_mysql"
