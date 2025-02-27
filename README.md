@@ -1,7 +1,7 @@
 <h1 align="center"> Envio de e-mails em massa considerando as características dos destinatários </h1>
 
 <p align="center">
-por Carina R.P.M Dias <br/>
+por Carina Maltauro <br/>
 </p>
 
 ## Projeto
