@@ -6,7 +6,7 @@ Carina Maltauro <br/>
 
 ## Projeto
 
-Este projeto visa automatizar um grande número de envios de e-mails, baseando-se em uma comunicação eficiente e rápida com parceiros/clientes. Considerou-se durante a construção do projeto a possibilidade de personalizar destinatários e mensagens. Uma empresa pode ter a necessidade de enviar e-mails padronizados considerando características semelhantes entre os destinatários, exemplificando, enviar e-mails para parceiros de determinado grupo ou para clientes de determinada região. A empresa ainda pode ter a necessidade de personalizar a mensagem, como inserir o nome do cliente ou o número de um pedido. O projeto fornece códigos que acessam os dados dos destinatários tanto de uma simples planilha de Excel como de um banco de dados (MySQL, Oracle, etc).
+Este projeto visa automatizar um grande número de envios de e-mails, baseando-se em uma comunicação eficiente e rápida com parceiros/clientes através do Twilio SendGrid. Considerou-se durante a construção do projeto a possibilidade de personalizar destinatários e mensagens. Uma empresa pode ter a necessidade de enviar e-mails padronizados considerando características semelhantes entre os destinatários, exemplificando, enviar e-mails para parceiros de determinado grupo ou para clientes de determinada região. A empresa ainda pode ter a necessidade de personalizar a mensagem, como inserir o nome do cliente ou o número de um pedido. O projeto fornece códigos que acessam os dados dos destinatários tanto de uma simples planilha de Excel como de um banco de dados (MySQL, Oracle, etc).
 
 ## Instruções
 
