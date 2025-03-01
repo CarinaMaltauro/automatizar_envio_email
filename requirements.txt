@@ -11,6 +11,6 @@ Pandas:
 pip install pandas
 pip install pandasql
 
-RECOMENDAÇÕES
+NOTA
 Trabalhe com Python 3.X
-Crie uma conta no Twilio SendGrid e configure em 'API de e-mail' uma chave_sendgrid
+Crie uma conta no Twilio SendGrid, faça a verificação de e-mail e configure em 'API de e-mail' uma chave_sendgrid.
