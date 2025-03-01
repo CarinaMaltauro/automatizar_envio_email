@@ -10,7 +10,7 @@ Este projeto visa automatizar um grande número de envios de e-mails, baseando-s
 
 ## Instruções
 
-- Realize as instalações e verifique as recomendações em requirements.txt.
+- Leia requirements.txt.
 - Para personalizar apenas características dos destinatários (dados em uma planilha de Excel), utilize main.py, chave_sendgrid.py e o arquivo de Excel.
 - Para personalizar características dos destinatários (dados em uma planilha de Excel) e mensagens, utilize main_personalized.py, chave_sendgrid.py e o arquivo de Excel.
 - Para personalizar características dos destinatários (dados em banco de dados MySQL) e mensagens, utilize main_personalized_mysql.py, chave_sendrig.py, senha_mysql.py, connection_mysql.py, arquivo sql.
