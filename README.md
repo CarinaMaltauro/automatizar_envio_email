@@ -1,8 +1,6 @@
-<h1 align="center"> Envio de e-mails em massa considerando as características dos destinatários </h1>
+<h1 align="center"> Envio de e-mails em massa considerando as características dos destinatários  <img src="https://cdn-icons-png.freepik.com/256/16257/16257037.png?ga=GA1.1.763163565.1742925562&semt=ais_hybrid" width="25" heigth="25"></h1>
 
-<p align="center">
-Carina Maltauro <br/>
-</p>
+<p align="center">Carina Maltauro</p>
 
 ## Projeto
 
