@@ -15,4 +15,4 @@ pip install pandasql
 NECESSÁRIO
 
 Python 3.X
-
+MySQL
