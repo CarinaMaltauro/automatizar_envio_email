@@ -1,10 +1,10 @@
 <h1 align="center"> Envio de e-mails em massa considerando as características dos destinatários  <img src="https://cdn-icons-png.freepik.com/256/16257/16257037.png?ga=GA1.1.763163565.1742925562&semt=ais_hybrid" width="25" heigth="25"></h1>
 
-<p align="center">Carina Maltauro</p>
+<p align="center">Carina R. P. M Dias</p>
 
 ## Projeto
 
-Este projeto visa automatizar um grande número de envios de e-mails, baseando-se em uma comunicação eficiente e rápida com parceiros/clientes através do Twilio SendGrid. Considerou-se durante a construção do projeto a possibilidade de personalizar destinatários e mensagens. Uma empresa pode ter a necessidade de enviar e-mails padronizados considerando características semelhantes entre os destinatários, exemplificando, enviar e-mails para parceiros de determinado grupo ou para clientes de determinada região. A empresa ainda pode ter a necessidade de personalizar a mensagem, como inserir o nome do cliente ou o número de um pedido. O projeto fornece códigos que acessam os dados dos destinatários tanto de uma simples planilha de Excel como de um banco de dados (MySQL, Oracle, etc).
+O projeto tem como objetivo automatizar o envio de um grande número de e-mails, tendo por base uma comunicação eficiente e rápida com parceiros e clientes. Durante a sua construção, foi considerada a possibilidade de personalizar destinatários e mensagens. Uma empresa pode precisar enviar e-mails padronizados com base em características semelhantes entre os destinatários. Por exemplo, enviar e-mails para parceiros de um grupo ou para clientes de uma região. Além disso, a empresa ainda pode ter a necessidade de personalizar o conteúdo da mensagem, como inserir o nome do cliente ou o número de um pedido. O projeto inclui códigos que permitem acessar os dados dos destinatários, tanto a partir de uma simples planilha de Excel quanto de um banco de dados (MySQL, Oracle, etc).
 
 ## Instruções
 
