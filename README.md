@@ -8,7 +8,6 @@ O projeto tem como objetivo automatizar o envio de um grande número de e-mails,
 
 ## Instruções
 
-- Leia requirements.txt.
 - Crie uma conta no Twilio SendGrid, faça a verificação de e-mail e configure em 'API de e-mail' uma chave_sendgrid.
 - Para personalizar apenas características dos destinatários (dados em uma planilha de Excel), utilize main.py, chave_sendgrid.py e o arquivo de Excel.
 - Para personalizar características dos destinatários (dados em uma planilha de Excel) e mensagens, utilize main_personalized.py, chave_sendgrid.py e o arquivo de Excel.
