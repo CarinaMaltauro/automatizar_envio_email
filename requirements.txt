@@ -1,18 +1,6 @@
-INSTALAÇÕES
+sendgrid==6.11.0
+mysqlclient==2.2.7
+mysql-connector-python==9.3.0
+pandas==2.2.2
+pandasql==0.7.3
 
-Twilio SendGrid:
-pip install sendgrid
-
-MySQL:
-pip install mysqlclient 
-pip install mysql-connector-python 
-
-Pandas:
-pip install pandas
-pip install pandasql
-
-
-NECESSÁRIO
-
-Python 3.X
-MySQL
