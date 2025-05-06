@@ -1,16 +1,94 @@
-<h1 align="center"> Envio de e-mails em massa considerando as características dos destinatários  <img src="https://cdn-icons-png.freepik.com/256/16257/16257037.png?ga=GA1.1.763163565.1742925562&semt=ais_hybrid" width="25" heigth="25"></h1>
+<h1 align="center"> Envio de e-mails em massa considerando as características dos destinatários  </h1>
 
 <p align="center">Carina R. P. M Dias</p>
 
-## Projeto
 
-O projeto tem como objetivo automatizar o envio de um grande número de e-mails, tendo por base uma comunicação eficiente e rápida com parceiros e clientes. Durante a sua construção, foi considerada a possibilidade de personalizar destinatários e mensagens. Uma empresa pode precisar enviar e-mails padronizados com base em características semelhantes entre os destinatários. Por exemplo, enviar e-mails para parceiros de um grupo ou para clientes de uma região. Além disso, a empresa ainda pode ter a necessidade de personalizar o conteúdo da mensagem, como inserir o nome do cliente ou o número de um pedido. O projeto inclui códigos que permitem acessar os dados dos destinatários, tanto a partir de uma simples planilha de Excel quanto de um banco de dados (MySQL, Oracle, etc).
+Este projeto tem como objetivo **automatizar o envio em massa de e-mails personalizados**, facilitando uma comunicação eficiente e segmentada com **clientes e parceiros**. Ele permite que empresas enviem e-mails padronizados com variações de conteúdo, com base em características compartilhadas entre os destinatários — como grupo, região, tipo de relacionamento entre outros.
 
-## Instruções
+Durante o desenvolvimento, foram incluídas funcionalidades para:
 
-- Crie uma conta no Twilio SendGrid, faça a verificação de e-mail e configure em 'API de e-mail' uma chave_sendgrid.
-- Para personalizar apenas características dos destinatários (dados em uma planilha de Excel), utilize main.py, chave_sendgrid.py e o arquivo de Excel.
-- Para personalizar características dos destinatários (dados em uma planilha de Excel) e mensagens, utilize main_personalized.py, chave_sendgrid.py e o arquivo de Excel.
-- Para personalizar características dos destinatários (dados em banco de dados MySQL) e mensagens, utilize main_personalized_mysql.py, chave_sendrig.py, senha_mysql.py, connection_mysql.py, arquivo sql.
+* Personalizar o **conteúdo das mensagens** (ex: nome do cliente, número do pedido)
+* Segmentar o envio por **grupo, localidade ou categoria**
+* Utilizar **dados armazenados em planilhas Excel ou bancos de dados** (MySQL, Oracle, etc.)
+
+---
+
+## ⚙️ Instruções de Uso
+
+### 1. Configuração inicial
+
+1. Crie uma conta gratuita no [SendGrid (Twilio)](https://sendgrid.com/)
+2. Gere uma chave de API em: **Email API > Integration Guide > API Key**
+3. Salve essa chave em um arquivo chamado `chave_sendgrid.py`, no seguinte formato:
+
+```python
+SENDGRID_API_KEY = "sua_chave_aqui"
+```
+
+---
+
+### 2. Modos de uso
+
+#### A) Personalização com dados de Excel (somente destinatários)
+
+Use os arquivos:
+
+* `main.py`
+* `chave_sendgrid.py`
+* Planilha `.xlsx` com os dados dos destinatários
+
+#### B) Personalização com dados de Excel e mensagens
+
+Use os arquivos:
+
+* `main_personalized.py`
+* `chave_sendgrid.py`
+* Planilha `.xlsx` com dados e conteúdo dinâmico das mensagens
+
+#### C) Personalização com banco de dados (MySQL) e mensagens
+
+Use os arquivos:
+
+* `main_personalized_mysql.py`
+* `chave_sendgrid.py`
+* `senha_mysql.py`
+* `connection_mysql.py`
+* Script `.sql` contendo a estrutura/tabela com os dados dos destinatários e mensagens
+
+---
+
+## 🛠️ Tecnologias utilizadas
+
+* Python 3.x
+* [SendGrid API](https://sendgrid.com/docs/api-reference/)
+* `pandas` (leitura e manipulação de Excel)
+* `mysql-connector-python` (conexão com MySQL)
+* Modularização segura com arquivos separados para credenciais
+
+---
+
+## 💡 Aplicações Práticas
+
+* Envio de e-mails promocionais personalizados
+* Notificações segmentadas por localidade
+* Comunicação com grupos de parceiros
+* Follow-ups automatizados com informações individualizadas
+
+---
+
+## 🚀 Execução rápida
+
+1. Instale as dependências:
+
+```bash
+pip install pandas sendgrid mysql-connector-python openpyxl
+```
+
+2. Execute o script desejado, por exemplo:
+
+```bash
+python main_personalized.py
+```
+
 
  
